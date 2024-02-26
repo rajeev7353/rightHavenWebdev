@@ -1,0 +1,193 @@
+body {
+  font-family: "Poppins", sans-serif;
+  margin: 50px 50px 0 50px;
+  background-color: #d5fcfa;
+  display: flex;
+  flex-direction: column;
+  min-height: 200vh;
+  margin-left:200px;
+  margin-right: 200px;
+
+
+}
+.main {
+  flex: 0;
+}
+
+h1 {
+  font-size: 5rem;
+}
+
+footer {
+  text-align: right;
+  color: midnightblue;
+  margin: 100px;
+
+}
+
+.tile-image {
+  height: 200px;
+  float: left;
+  margin-right: 10px;
+
+}
+
+.card {
+  width: 45%;
+}
+
+.left {
+  float: left;
+  color: gray;
+
+}
+
+.right {
+  float: right;
+  color: gray;
+}
+
+.creative {
+  color: midnightblue;
+}
+
+.card-title{
+  color: midnightblue;
+}
+
+.b.buttom-container {
+  background-color: #66BFBF;
+  padding: 50px 0 20px;
+
+
+}
+
+
+
+.pro {
+  text-decoration: underline;
+}
+
+.intro {
+  width: 30%;
+  margin: auto;
+}
+.contact-message{
+  width: 40%;
+  margin: 40px auto 60px;
+
+}
+.copyright{
+  color: black;
+  font-size: 0.75rem;
+  padding: 10px 0;
+  text-align: center;
+}
+
+@media (max-width: 680px) {
+  .logo {
+    width: 100px;
+  }
+
+  h1 {
+    font-size: 3.5rem;
+    text-align: center;
+  }
+
+
+
+  .card {
+    width: 100%;
+    display: block;
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+
+  .card img {
+    margin-bottom: 10px;
+    width: 100%;
+    display: inline;
+    object-fit: cover;
+  }
+}
+nav {
+
+  background-position: center;
+    text-align: center;
+
+
+}
+
+nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul li {
+  display: inline;
+
+}
+
+nav ul li a {
+  display: inline-block;
+  padding: 10px 20px;
+  text-decoration: none;
+  color: midnightblue;
+}
+
+nav ul li a:hover {
+  background-color: white;
+}
+.scrolling-message {
+  overflow: hidden;
+  white-space: nowrap;s
+  padding: 10px;
+  margin: 20px;
+  color: red;
+  font-weight: bolder;
+}
+
+}
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+textarea {
+  resize: vertical;
+}
+
+button[type="submit"] {
+  background-color: #4CAF50;
+  color: white;
+  padding: 10px 20px;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-size: 16px;
+}
+
+button[type="submit"]:hover {
+  background-color: #45a049;
+}
+
+
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+}
+
+.slide {
+  display: none;
+}
+
+.slide img {
+  width: 100%;
+  height: auto;
+}
